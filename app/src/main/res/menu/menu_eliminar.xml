@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/inicioAdmin"
+        android:title="Inicio"/>
+
+    <item android:id="@+id/eliminarPartido"
+        android:title="Eliminar Partido"/>
+
+    <item android:id="@+id/eliminarEquipo"
+        android:title="Eliminar Equipo"/>
+
+    <item android:id="@+id/eliminarJugador"
+        android:title="Eliminar Jugador"
+        />
+
+    <item android:id="@+id/cerrarSesionAdmin"
+        android:title="Cerrar Sesión"/>
+
+</menu>

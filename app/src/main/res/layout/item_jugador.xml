@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="6dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="356dp"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="164dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Nombre"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/iJugador"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvEquipo"
+            android:layout_width="165dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="Equipo"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            app:layout_constraintStart_toEndOf="@+id/iJugador"
+            app:layout_constraintTop_toBottomOf="@+id/tvNombre" />
+
+        <TextView
+            android:id="@+id/tvPosicion"
+            android:layout_width="164dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Posicion"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            app:layout_constraintStart_toEndOf="@+id/iJugador"
+            app:layout_constraintTop_toBottomOf="@+id/tvEquipo" />
+
+        <TextView
+            android:id="@+id/tvEdad"
+            android:layout_width="165dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="Edad"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            app:layout_constraintStart_toEndOf="@+id/iJugador"
+            app:layout_constraintTop_toBottomOf="@+id/tvPosicion" />
+
+        <ImageView
+            android:id="@+id/iJugador"
+            android:layout_width="146dp"
+            android:layout_height="173dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

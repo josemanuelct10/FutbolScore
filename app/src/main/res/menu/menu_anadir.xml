@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/inicioAdmin"
+        android:title="Inicio"/>
+    <item android:id="@+id/nuevoPartido"
+        android:title="Nuevo Partido"/>
+
+    <item android:id="@+id/nuevoEquipo"
+        android:title="Nuevo Equipo"/>
+
+    <item android:id="@+id/nuevoJugador"
+        android:title="Nuevo Jugador"
+        />
+
+    <item android:id="@+id/cerrarSesionAdmin"
+        android:title="Cerrar Sesión"/>
+
+</menu>
